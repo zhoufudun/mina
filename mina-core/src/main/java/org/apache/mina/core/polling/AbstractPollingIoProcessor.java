@@ -428,9 +428,9 @@ public abstract class AbstractPollingIoProcessor<S extends AbstractIoSession> im
      */
     @Override
     public void write(S session, WriteRequest writeRequest) {
-        WriteRequestQueue writeRequestQueue = session.getWriteRequestQueue();
+        WriteRequestQueue writeRequestQueue = session.getWriteRequestQueue(); // 获取发送队列
 
-        writeRequestQueue.offer(session, writeRequest);
+        writeRequestQueue.offer(session, writeRequest); // 消息加入发送队列
 
         if (!session.isWriteSuspended()) {
             this.flush(session);
@@ -445,8 +445,8 @@ public abstract class AbstractPollingIoProcessor<S extends AbstractIoSession> im
         // add the session to the queue if it's not already
         // in the queue, then wake up the select()
         if (session.setScheduledForFlush(true)) {
-            flushingSessions.add(session);
-            wakeup();
+            flushingSessions.add(session); // session带有写请求在队列，需要刷新，有processor线程发送写请求
+            wakeup(); // 唤醒processor线程
         }
     }
 
@@ -918,7 +918,7 @@ public abstract class AbstractPollingIoProcessor<S extends AbstractIoSession> im
                 switch (state) {
                 case OPENED:
                     try {
-                        boolean flushedAll = flushNow(session, currentTime);
+                        boolean flushedAll = flushNow(session, currentTime); // 将session的队列的数据发送到远程服务器
 
                         if (flushedAll && !session.getWriteRequestQueue().isEmpty(session)
                                 && !session.isScheduledForFlush()) {
@@ -1104,7 +1104,7 @@ public abstract class AbstractPollingIoProcessor<S extends AbstractIoSession> im
                 }
 
                 try {
-                    localWrittenBytes = write(session, buf, length);
+                    localWrittenBytes = write(session, buf, length); // 真正通过socket发送出去
                 } catch (IOException ioe) {
                     ioe.printStackTrace();
 

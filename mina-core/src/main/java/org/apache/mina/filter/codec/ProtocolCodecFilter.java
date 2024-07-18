@@ -323,13 +323,13 @@ public class ProtocolCodecFilter extends IoFilterAdapter {
         }
 
         try {
-            // Now we can try to encode the response
+            // Now we can try to encode the response   编码消息，消息写入队列（org.apache.mina.filter.codec.AbstractProtocolEncoderOutput.messageQueue）
             encoder.encode(session, message, encoderOut);
 
-            // Send it directly
+            // Send it directly 获取队列消息
             Queue<Object> bufferQueue = ((AbstractProtocolEncoderOutput) encoderOut).getMessageQueue();
 
-            // Write all the encoded messages now
+            // Write all the encoded messages now  发送队列的全部消息
             while (!bufferQueue.isEmpty()) {
                 Object encodedMessage = bufferQueue.poll();
 

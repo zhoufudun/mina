@@ -33,10 +33,10 @@ public class IoEvent implements Runnable {
     private final IoEventType type;
 
     /** The associated IoSession */
-    private final IoSession session;
+    private final IoSession session; // (0x00000001: nio socket, client, /192.168.199.1:50187 => 0.0.0.0/0.0.0.0:8080)
 
     /** The stored parameter */
-    private final Object parameter;
+    private final Object parameter; // WriteRequest: HeapBuffer[pos=0 lim=13 cap=16: 73 63 68 65 64 75 6C 65 20 6A 6F 62 0A]
 
     /**
      * Creates a new IoEvent
@@ -54,9 +54,9 @@ public class IoEvent implements Runnable {
             throw new IllegalArgumentException("session");
         }
         
-        this.type = type;
-        this.session = session;
-        this.parameter = parameter;
+        this.type = type; // WRITE
+        this.session = session; // (0x00000001: nio socket, client, /192.168.199.1:50187 => 0.0.0.0/0.0.0.0:8080)
+        this.parameter = parameter; // WriteRequest: HeapBuffer[pos=0 lim=13 cap=16: 73 63 68 65 64 75 6C 65 20 6A 6F 62 0A]
     }
 
     /**

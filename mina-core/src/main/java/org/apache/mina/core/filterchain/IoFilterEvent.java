@@ -75,7 +75,7 @@ public class IoFilterEvent extends IoEvent {
     @Override
     public void fire() {
         IoSession session = getSession();
-        IoEventType type = getType();
+        IoEventType type = getType(); // WRITE
 
         if (DEBUG) {
             LOGGER.debug("Firing a {} event for session {}", type, session.getId());
@@ -93,7 +93,7 @@ public class IoFilterEvent extends IoEvent {
                 break;
     
             case WRITE:
-                writeRequest = (WriteRequest) getParameter();
+                writeRequest = (WriteRequest) getParameter(); // WriteRequest: HeapBuffer[pos=0 lim=13 cap=16: 73 63 68 65 64 75 6C 65 20 6A 6F 62 0A]
                 nextFilter.filterWrite(session, writeRequest);
                 break;
     

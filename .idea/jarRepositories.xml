@@ -4,22 +4,17 @@
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
-      <option name="url" value="https://repo.maven.apache.org/maven2" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="pwrd-nexus-releases" />
+      <option name="name" value="Internal Releases" />
+      <option name="url" value="http://nexus.sys.wanmei.com/repository/java-releases/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="apache.snapshots" />
       <option name="name" value="Apache Snapshot Repository" />
       <option name="url" value="https://repository.apache.org/snapshots" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="apache.snapshots" />
-      <option name="name" value="Apache Snapshot Repository" />
-      <option name="url" value="http://repository.apache.org/snapshots" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="nexus-inner" />
-      <option name="name" value="nexus-inner" />
-      <option name="url" value="http://alpha-repo.tigerbrokers.net/nexus/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -32,14 +27,9 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="nexus-tigerbrokers" />
-      <option name="name" value="nexus-tigerbrokers" />
-      <option name="url" value="http://nexus.tigerbrokers.net/repository/maven-public/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Maven Repository Switchboard" />
-      <option name="url" value="http://repo1.maven.org/maven2" />
+      <option name="id" value="pwrd-nexus-snapshots" />
+      <option name="name" value="Internal Snapshots" />
+      <option name="url" value="http://nexus.sys.wanmei.com/repository/java-snapshots/" />
     </remote-repository>
   </component>
 </project>

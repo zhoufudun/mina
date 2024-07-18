@@ -37,7 +37,7 @@ import org.apache.mina.core.session.IoSession;
  */
 public abstract class NioSession extends AbstractIoSession {
     /** The NioSession processor */
-    protected final IoProcessor<NioSession> processor;
+    protected final IoProcessor<NioSession> processor; // SimpleIoProcessorPool
 
     /** The communication channel */
     protected final Channel channel;

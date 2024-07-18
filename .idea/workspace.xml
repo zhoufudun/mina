@@ -4,64 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f73cc1f-9308-4425-8cf5-73f937b6e55f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/examples/src/main/java/org/apache/mina/examples/echoserver/NioEchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/src/main/java/org/apache/mina/examples/echoserver/NioEchoServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thrift/src/main/java/org/apache/mina/codec/delimited/serialization/ThriftMessageEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/thrift/src/main/java/org/apache/mina/codec/delimited/serialization/ThriftMessageEncoder.java" afterDir="false" />
+    <list default="true" id="a5033581-a7c5-46ac-b956-24b5e48a9be8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mina-example/src/main/java/org/apache/mina/example/echoserver/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/filterchain/IoFilterEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/filterchain/IoFilterEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/service/SimpleIoProcessorPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/service/SimpleIoProcessorPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/session/IoEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/session/IoEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioSession.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v2.2.3-note" />
+        <entry key="$PROJECT_DIR$" value="2.1.X" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="recentBranches">
-      <RecentBranches>
-        <option name="branchesForRepo">
-          <list>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="v3.0.0-M1-note" />
-                    <option name="lastUsedInstant" value="1720700129" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="trunk" />
-                    <option name="lastUsedInstant" value="1720699945" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="v2.2.3-note" />
-                    <option name="lastUsedInstant" value="1720699590" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="2.2.X" />
-                    <option name="lastUsedInstant" value="1720699524" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="v2.0.19-note" />
-                    <option name="lastUsedInstant" value="1720699206" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-          </list>
-        </option>
-      </RecentBranches>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="$USER_HOME$/Desktop/mvn/settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings-back.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -69,42 +52,29 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2j3MgVNWXOOwNWjvC7LZg2xMseN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="2j6P6y1nYmZUEzDvNmtosZ9Mk4B" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "Application.NioEchoClient.executor": "Run",
-    "Application.NioEchoServer.executor": "Run",
-    "JUnit.ConnectorTest.testTCP.executor": "Run",
-    "JUnit.ConnectorTest.testUDP.executor": "Run",
-    "Maven.mina-examples [clean].executor": "Run",
-    "Maven.mina-examples [compile].executor": "Run",
-    "Maven.mina-examples [package].executor": "Run",
-    "Maven.mina-parent [clean].executor": "Run",
-    "Maven.mina-parent [compile].executor": "Run",
-    "Maven.mina-parent [install].executor": "Run",
-    "Maven.mina-parent [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "v3.0.0-M1-note",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/zhoufudun/IdeaProjects/mina",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "git-widget-placeholder": "v2.0.19-note",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NioEchoClient">
+  <component name="RunManager" selected="Application.client">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.apache.mina.example.echoserver.Main" />
       <module name="mina-example" />
@@ -144,7 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectorTest.testTCP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.mina.example.echoserver.client" />
       <module name="mina-example" />
       <extension name="coverage">
         <pattern>
@@ -152,38 +123,18 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.apache.mina.example.echoserver" />
-      <option name="MAIN_CLASS_NAME" value="org.apache.mina.example.echoserver.ConnectorTest" />
-      <option name="METHOD_NAME" value="testTCP" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectorTest.testUDP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mina-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.mina.example.echoserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.apache.mina.example.echoserver" />
-      <option name="MAIN_CLASS_NAME" value="org.apache.mina.example.echoserver.ConnectorTest" />
-      <option name="METHOD_NAME" value="testUDP" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="mina-core" />
+      <module name="mina-codec" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="mina-core" />
+      <module name="mina-codec" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,23 +142,31 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NioEchoClient" />
-        <item itemvalue="Application.NioEchoServer" />
-        <item itemvalue="JUnit.ConnectorTest.testTCP" />
-        <item itemvalue="JUnit.ConnectorTest.testUDP" />
+        <item itemvalue="Application.client" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NioEchoServer" />
+        <item itemvalue="Application.NioEchoClient" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0f73cc1f-9308-4425-8cf5-73f937b6e55f" name="Changes" comment="" />
-      <created>1720609699853</created>
+      <changelist id="a5033581-a7c5-46ac-b956-24b5e48a9be8" name="Changes" comment="" />
+      <created>1720704382781</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1720609699853</updated>
+      <updated>1720704382781</updated>
     </task>
+    <task id="LOCAL-00001" summary="阅读代码">
+      <option name="closed" value="true" />
+      <created>1720712873836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720712873836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +180,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/trunk" />
+                        <option value="v2.0.19-note" />
                       </list>
                     </value>
                   </entry>
@@ -235,14 +194,171 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="阅读代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="阅读代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/examples/src/main/java/org/apache/mina/examples/echoserver/NioEchoServer.java</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java</url>
+          <line>70</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/examples/src/main/java/org/apache/mina/examples/echoserver/NioEchoServer.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/FixedSelectorLoopPool.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java</url>
+          <line>341</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java</url>
+          <line>346</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/NioSelectorLoop.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/NioTcpSession.java</url>
+          <line>252</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/session/AbstractIoSession.java</url>
+          <line>557</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/examples/src/main/java/org/apache/mina/examples/udpecho/NioUdpEchoServer.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/session/AbstractIoSession.java</url>
+          <line>719</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/AbstractNioSession.java</url>
+          <line>302</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/AbstractNioSession.java</url>
+          <line>256</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/NioTcpSession.java</url>
+          <line>375</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/examples/src/main/java/org/apache/mina/examples/echoserver/NioEchoServer.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/session/AbstractIoSession.java</url>
+          <line>782</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/AbstractNioSession.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/mina/transport/nio/NioSelectorLoop.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-example/src/main/java/org/apache/mina/example/echoserver/EchoProtocolHandler.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-example/src/main/java/org/apache/mina/example/echoserver/client.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSession.java</url>
+          <line>569</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java</url>
+          <line>743</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java</url>
+          <line>329</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/filter/codec/AbstractProtocolEncoderOutput.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java</url>
+          <line>349</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java</url>
+          <line>333</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java</url>
+          <line>344</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/filter/logging/MdcInjectionFilter.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/filter/logging/MdcInjectionFilter.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/service/SimpleIoProcessorPool.java</url>
+          <line>358</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoProcessor.java</url>
+          <line>447</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoProcessor.java</url>
+          <line>687</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoProcessor.java</url>
+          <line>920</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

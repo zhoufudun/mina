@@ -892,8 +892,8 @@ public void fireFilterWrite(WriteRequest writeRequest) {
             if (!s.isWriteSuspended()) {
                 if (writeRequestQueue.isEmpty(session)) {
                     // We can write directly the message
-                    s.getProcessor().write(s, writeRequest);
-                } else {
+                    s.getProcessor().write(s, writeRequest); // 写请求队列没有任务，直接发送
+                } else { // // 写请求队列有任务，入队，按顺序发送
                     s.getWriteRequestQueue().offer(s, writeRequest);
                     s.getProcessor().flush(s);
                 }

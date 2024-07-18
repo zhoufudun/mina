@@ -355,7 +355,7 @@ public class SimpleIoProcessorPool<S extends AbstractIoSession> implements IoPro
      * the session's attributes, pick a new processor and stores it.
      */
     @SuppressWarnings("unchecked")
-    private IoProcessor<S> getProcessor(S session) {
+    private IoProcessor<S> getProcessor(S session) { // NIOSocketSession: (0x00000001: nio socket, client, /192.168.199.1:50187 => 0.0.0.0/0.0.0.0:8080)
         IoProcessor<S> processor = (IoProcessor<S>) session.getAttribute(PROCESSOR);
 
         if (processor == null) {
