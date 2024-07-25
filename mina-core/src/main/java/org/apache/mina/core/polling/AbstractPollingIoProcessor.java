@@ -446,7 +446,7 @@ public abstract class AbstractPollingIoProcessor<S extends AbstractIoSession> im
         // in the queue, then wake up the select()
         if (session.setScheduledForFlush(true)) {
             flushingSessions.add(session); // session带有写请求在队列，需要刷新，有processor线程发送写请求
-            wakeup(); // 唤醒processor线程
+            wakeup(); // 唤醒NIOProcessor线程
         }
     }
 
@@ -691,7 +691,7 @@ public abstract class AbstractPollingIoProcessor<S extends AbstractIoSession> im
                     notifyIdleSessions(currentTime);
                     
                     // And manage removed sessions
-                    removeSessions();
+                    removeSessions(); // 处理关闭的session
                     
                     // Disconnect all sessions immediately if disposal has been
                     // requested so that we exit this loop eventually.
@@ -928,7 +928,7 @@ public abstract class AbstractPollingIoProcessor<S extends AbstractIoSession> im
                         scheduleRemove(session);
                         session.closeNow();
                         IoFilterChain filterChain = session.getFilterChain();
-                        filterChain.fireExceptionCaught(e);
+                        filterChain.fireExceptionCaught(e); // 异常传播
                     }
 
                     break;
